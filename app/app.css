@@ -1,0 +1,75 @@
+body{
+	background: -webkit-linear-gradient(#000,#a0a0a0);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}
+
+.menu {
+  margin-top: 70px;
+  background-color: black;
+  padding: 20px;
+  width: 650px;
+  border-radius: 5px;
+}
+.menu li{
+	text-decoration: none;
+	display: inline;
+}
+.menu li a{
+	text-decoration: none;
+	display: inline;
+}
+.btn
+{
+	padding: 10px 110px;
+}
+
+.form{
+	background-color: black;
+	width: 650px;
+	border-radius: 5px;
+	padding: 20px;
+	color: #fff;
+}
+.form label{
+	float: left;
+}
+.form .btn{
+	color: #fff;
+}
+.form .btn:hover{
+	background-color: white;
+	color: #000;
+	transition: all 1.5s;
+}
+h1{
+	margin-top: 150px;
+	text-shadow: 2px 2px 2px blue;
+	color: #fff;
+}
+
+table{
+	color: #fff;
+}
+.tb{
+	background-color: #000;
+	padding: 20px;
+	width: 650px;
+	border-radius: 5px;
+}
+.mm{
+    max-width:100%;
+    padding: 2px 10px;
+    border-radius: 60%;
+}
+.nn{
+    max-width:100%;
+    padding: 0px 10px;
+}
+
+.inp{
+	border: 1px solid #000;
+	color: dodgerblue;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+  </head>
+
+<body>
+<div ng-controller="View1Ctrl" class="container" >
+	<center><div class="form">
+		<form name="jogadoresForm"  ng-submit="salvar(jogador)">
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Nome:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite Nome" ng-model="jogador.nome">
+      </div>
+	     <div class="form-group">
+		    <label for="formGroupExampleInput2">Idade:</label>
+		    <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Digite Idade" ng-model="jogador.idade">
+		  </div>
+       <div class="form-group">
+        <label for="formGroupExampleInput2">Time:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite Time" ng-model="jogador.timee">
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Posição Tática:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite Posição" ng-model="jogador.posicao">
+      </div>
+      <br>
+		  <div class="form-group">
+		    <input type="submit" class="btn btn-primary" value="Enviar Dados"  style="width: 100%;">
+		  </div>
+		</form>
+	</div></center>
+</div>
+
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
